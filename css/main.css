@@ -1,8 +1,15 @@
 .header {
-	display                  : grid;
-	grid-template-columns    : repeat(3, 1fr);
-	grid-template-rows       : repeat(5, 1fr);
-	width                    : 100vw;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: 10px;
+	grid-template-areas:
+	". . ."
+	". . ."
+	". . ."
+	". . ."
+	". a ."
+  width                    : 100vw;
 	height                   : 100vh;
 	background               : url("../img/hello.jpg") no-repeat scroll;
 	-webkit-background-size  : cover;
@@ -13,10 +20,10 @@
 }
 
 .my-name-central {
-	grid-column              : 2 / 3;
-	grid-row                 : 5;
-	grid-template-columns    : repeat(3, 1fr);
-	grid-template-rows       : repeat(3, 1fr);
+	grid-area: a;
+	grid-column: 2;
+	grid-row: 5;
+	align-self: center;
 }
 
 .my-name-central h1 {
