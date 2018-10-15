@@ -44,3 +44,7 @@
 .custom-icon {
 	color: rgba(255, 255, 255, 0.9);
 }
+
+.bg-primary {
+	background-color: rgba(169, 170, 171, 1.0) !important;
+}
