@@ -29,11 +29,6 @@ body {
     font-weight: 700;
 }
 
-.copyleft {
-    display:inline-block;
-    transform: rotate(180deg);
-}
-
 /* Custom Button Styles */
 
 .btn-dark {
